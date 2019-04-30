@@ -452,7 +452,7 @@ footer{
     }
     .highLeft{
       width: 100%;
-      margin: 0%;
+      margin: 0;
     }
     .highRight{
       width: 100%;
@@ -502,36 +502,31 @@ footer{
         text-align: center;
         width: 100%;
       }
-    .contactInfo{
+    .contactInfo,
+    .bottomNav{
       float: left;
       width: 50%
     }  
-    .bottomNav{
-      float: left;
-      width: 50%;
-    }
 }
 @media(max-width:846px){
   .wrapper{
     max-width: 700px;
   }
   .headerLeft,
-  .headerRight{
+  .headerRight,
+  .icons{
     display: none;
   }
   .upperHeader i{
     visibility: visible;
     position: absolute;
     right: 50px;
-    top: 25px;
+    top: 40px;
     font-size: 50px;
     color: #fcfbfb;
   }
   .bottomHeader{
     margin-top: 55%;
-  }
-  .icons{
-    display: none;
   }
 }
 @media(max-width: 725px){
@@ -595,6 +590,9 @@ footer{
   .newsTitle{
     margin-top: 5%;
   }
+  .readMoreGal{
+    margin: 5% 0;
+  }
   .darkCarBack{
     background-image: url(../assets/image-8-mobile.jpg);
     background-position: center center;
@@ -602,6 +600,7 @@ footer{
     width: 100%;
   }
 }
+
 @media(max-width:429px){
   .wrapper{
     max-width: 350px;
@@ -616,8 +615,12 @@ footer{
   .newsOne{
     margin-bottom: 10%;
   }
-  
+  .emailCol p,
+  .contactInfo p{
+    font-size: 18px;
+  }
 }
+
 @media(max-width:369px){
   .wrapper{
     max-width: 300px;
@@ -626,7 +629,8 @@ footer{
     padding-top: 35%;
   }
 }
-@media(max-width:321px){
+
+@media(max-width:320px){
   .wrapper{
     max-width: 280px;
   }
