@@ -45,10 +45,10 @@
  <!--social media icons  -->
   <div class="icons clearfix">
       <ul class="iconList clearfix">
-        <li> <a href="#"><i class="fab fa-instagram"></i></a><li>
-        <li> <a href="#"><i class="fab fa-facebook-f"></i></a></li>
-        <li> <a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
-        <li> <a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li> <a href="#"><i class="fab fa-instagram" aria-hidden="true" title="go to instagram"></i></a></li>
+        <li> <a href="#"><i class="fab fa-facebook-f" aria-hidden="true" title="go to facebook"></i></a></li>
+        <li> <a href="#"><i class="fab fa-snapchat-ghost"aria-hidden="true" title="go to snapchat"></i></a></li>
+        <li> <a href="#"><i class="fab fa-twitter" aria-hidden="true" title="go to twitter"></i></a></li>
       </ul>
   </div>
 </header>
@@ -81,7 +81,7 @@
         <h3>this weeks highlight</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae at in quaerat nam ex, optio delectus asperiores blanditiis quam consequuntur facilis, dicta ullam atque sapiente! Velit repellendus corrupti animi doloribus.Illum fugiat eligendi dolores! Non accusamus ipsum quidem cum et nobis error culpa! Possimus odio autem repudiandae dolore! Aperiam eveniet quisquam necessitatibus incidunt voluptatibus suscipit repudiandae explicabo maxime temporibus. Ullam?
         </p>
-        <button class="readMore">read more</button>
+        <button class="readMore" aria-label="read more">read more</button>
       </div>
     </div>
   </section>
@@ -96,7 +96,7 @@
         <div class="modelsLeft">
           <h3>new models to look into it</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis beatae hic fugiat quasi, aliquam itaque mollitia quas recusandae possimus nam quae nemo, molestiae, assumenda facere ut atque eveniet incidunt fuga! Lorem ipsum dolor.</p>
-          <button class="readMoreGal">read more</button>
+          <button class="readMoreGal" aria-label="read more">read more</button>
         </div>
       </div>
     </div>
@@ -112,7 +112,7 @@
           laborum! Et ducimus officiis delectus odio tempore, similique sint voluptas maxime! Odit. Lorem, ipsum dolor sit
           amet consectetur adipisicing elit. Et ducimus officiis delectus odio tempore, similique sint voluptas maxime, eaque nam
           laborum!</p>
-          <button class="readMoreGal">read more</button>
+          <button class="readMoreGal" aria-label="read more">read more</button>
         </div>
       </div>
     </div>
@@ -122,15 +122,15 @@
     <!-- three icons here -->
     <div class="botIconsContainer wrapper clearfix">
       <div class="botIcons">
-        <a href="#"><i class="fas fa-car"></i></a>
+        <a href="#"><i class="fas fa-car"aria-hidden="true"></i></a>
         <p>shop brands</p>
       </div>
       <div class="botIcons">
-        <a href="#"><i class="fas fa-briefcase"></i></a>
+        <a href="#"><i class="fas fa-briefcase" aria-hidden="true"></i></a>
         <p>jobs</p>
       </div>
       <div class="botIcons">
-        <a href="#"><i class="fas fa-calendar-check"></i></a>
+        <a href="#"><i class="fas fa-calendar-check" aria-hidden="true"></i></a>
         <p>events</p>
       </div>
     </div>
@@ -145,7 +145,8 @@
       <h4>stay updated</h4>
       <p>Subscribe to our newsletter to stay updated.</p>
       <div>
-        <form class="emailForm" method="post" name="contact_form" action="contact-form-handler.php">
+        <form class="emailForm" name="contact_form" action="contact-form-handler.php">
+          <label for="email visuallyHidden"></label>
           <input class="inputEmail" type="email" name="email" placeholder="  email address"><button class="subscribe"type="submit"value="Subscribe">Subscribe</button>
         </form>
       </div>
